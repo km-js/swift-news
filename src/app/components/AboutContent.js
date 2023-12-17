@@ -1,7 +1,7 @@
 
 const AboutContent = () => {
   return (
-    <div>
+    <div className="ml-6">
       <h1 className="text-4xl font-bold mb-6">About</h1>
       <div className="text-gray-700 dark:text-gray-100 mb-4">
         Welcome to the Swift News App! We strive to bring you the latest and most relevant news about Swift programming
