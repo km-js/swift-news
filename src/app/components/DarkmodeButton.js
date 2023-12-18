@@ -13,9 +13,9 @@ const DarkmodeButton = () => {
     if (!mounted) {
         return null;
     }
-    if(mounted){
-        return <></>
-    }
+    // if(mounted){
+    //     return <></>
+    // }
 
     const currentTheme = theme === "system" ? systemTheme : theme;
     return (
