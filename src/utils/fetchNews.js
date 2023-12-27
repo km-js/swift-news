@@ -1,4 +1,5 @@
 const fetchNews = async (url) => {
+    //news api
     try {
         const response = await fetch(url);
         const data = await response.json();
